@@ -1,11 +1,11 @@
 {
-  "name": "react-masonry-component",
-  "version": "1.0.4",
+  "name": "react-masonry-component-4meteorhacks-npm",
+  "version": "0.0.13",
   "main": "./lib/index",
-  "description": "A masonry component for React.js",
+  "description": "A masonry component for React.js by Eirik + dependency pointing to npm instead of github",
   "dependencies": {
-    "masonry": "masonry-layout",
-    "imagesloaded": "imagesloaded"
+    "masonry": "https://github.com/puruzio/masonry/archive/dd74b7c6fe58e9f5de56d2ab442ac4b2d0fa5dd1.tar.gz",
+    "imagesloaded": "https://github.com/eiriklv/imagesloaded/archive/04535a148206e58790927e133f24ca199163b995.tar.gz"
   },
   "devDependencies": {},
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/eiriklv/react-masonry-component.git"
+    "url": "git://github.com/puruzio/react-masonry-component.git"
   },
   "keywords": [
     "react",
@@ -23,10 +23,10 @@
     "isotope",
     "react-component"
   ],
-  "author": "Eirik Vullum <evullum@gmail.com> (http://www.evconsult.no/)",
+  "author": "Jason O <puruzio@gmail.com>",
   "bugs": {
-    "url": "https://github.com/eiriklv/react-masonry-component/issues"
+    "url": "https://github.com/puruzio/react-masonry-component/issues"
   },
-  "homepage": "https://github.com/eiriklv/react-masonry-component",
+  "homepage": "https://github.com/puruzio/react-masonry-component",
   "license": "MIT"
-}
+} 
